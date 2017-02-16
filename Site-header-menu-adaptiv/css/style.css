@@ -1,0 +1,10 @@
+#responsive-menu ul li{
+	text-transform: uppercase;
+}
+
+.row{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 105%;
+}

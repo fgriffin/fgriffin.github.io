@@ -1,0 +1,28 @@
+.header{
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.header li{
+	display: inline-block;
+	margin-right: 25px;
+	list-style-type: none;
+}
+
+.header li:last-child{
+	display: inline-block;
+	margin-right: 0;
+	padding: 10px;
+}
+
+.header li a{
+	color: #fff;
+}
+
+section p{
+	margin-top: 50px;
+}

@@ -1,0 +1,15 @@
+img{
+	margin: 10px 0;
+}
+
+div.element{
+	height: 100px;
+	border: 2px solid #000;
+}
+
+div.item{
+	height: 50px;
+	background-color: #36C95F;
+	text-align: center;
+	border: 1px solid red;
+}

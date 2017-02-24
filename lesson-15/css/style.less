@@ -352,6 +352,7 @@ section{
 
 /* Services section */
 
+
 .services{
 	&_list{
 		list-style: none;
@@ -362,6 +363,32 @@ section{
 			height: 100px;
 			text-align: center;
 			background-color: #fbfbfb;
+
+			img{
+				display: block;
+
+				@keyframes tabs{
+					from{
+						box-shadow: 0px 6px 14px 0px rgba(255, 255, 255, 0.15);
+					}
+					to{
+						box-shadow: 0px 6px 14px 0px rgba(255, 48, 0, 0.15);
+						-webkit-transform: scale(0.9);
+						-ms-transform: scale(0.9);
+						-o-transform: scale(0.9);
+						transform: scale(0.9);
+					}
+					from{
+						box-shadow: 0px 6px 14px 0px rgba(255, 255, 255, 0.15);
+					}
+				}
+				&:hover{
+					animation-name: tabs;
+					animation-duration: 0.6s;	
+					animation-iteration-count: infinite;
+					animation-direction: alternate;
+				}
+			}
 		}
 	}
 

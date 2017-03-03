@@ -1213,9 +1213,6 @@ header {
 .layer img {
   width: 300px;
 }
-#layer-1 {
-  margin-left: 10%;
-}
 #layer-2 {
   margin-top: 15%;
   margin-left: 35%;
@@ -1223,8 +1220,15 @@ header {
 #layer-3 {
   margin-left: 55%;
 }
+/* Parallax */
+#parallax {
+  overflow: hidden;
+}
 @media (max-width: 480px) {
   .video-container {
+    display: none;
+  }
+  #parallax {
     display: none;
   }
   section {
@@ -1346,6 +1350,9 @@ header {
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .video-container {
+    display: none;
+  }
+  #parallax {
     display: none;
   }
   section {

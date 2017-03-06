@@ -1,0 +1,37 @@
+body{
+	background-color: #92E7D5;
+}
+
+.flex{
+	display: flex;
+	width: 1500px;
+	height: 500px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #D5FBF3;
+	border: 1px solid lightgreen;
+}
+
+label{
+	font-size: 20px;
+}
+
+input{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.box{
+	width: 10%;
+	background-color: #82DCF8;
+	text-align: center;
+}
+
+.box p{
+	font-size: 45px;
+	color: #0F6653;
+}
+
+.input-sort:checked ~ .flex{
+	flex-direction: row-reverse;
+}
